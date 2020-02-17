@@ -1,0 +1,11 @@
+<header>
+  <h1>Sample App</h1>
+</header>
+<app-widget-search></app-widget-search>
+
+<span>
+  <app-widget-comp [item]="{'Description':'value'}"></app-widget-comp>
+  <app-widget-comp *ngFor="let a of arr" [item]="a"></app-widget-comp>
+</span>
+
+<router-outlet></router-outlet>
